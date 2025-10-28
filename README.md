@@ -31,7 +31,7 @@ Try these commands:
 
 ## Live Demo
 
-Visit: [https://vikasgavandi.github.io/resume-redis](https://vikasgavandi.github.io/resume-redis)
+Visit: [https://vikasgavandi.github.io/engineer](https://vikasgavandi.github.io/engineer)
 
 ## Local Development
 

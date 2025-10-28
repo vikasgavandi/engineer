@@ -2,7 +2,7 @@
   "name": "resume-redis",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://vikasgavandi.github.io/resume-redis",
+  "homepage": "https://vikasgavandi.github.io/engineer",
   "dependencies": {
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
