@@ -279,7 +279,7 @@ export default function MiniRedis() {
         });
         
         output.push('\n╔════════════════════════════════════════════════════════════════════════╗');
-        output.push('║  Type "HELP" for more commands | Redis Resume v1.0                    ║');
+        output.push('║  Type "HELP" for more commands | Resume v1.0                         ║');
         output.push('╚════════════════════════════════════════════════════════════════════════╝');
         result = output.join('\n');
         break;
@@ -330,7 +330,7 @@ Try: GETALL | GET name | KEYS experience* | GAME`;
 
   const clearAll = () => {
     setHistory([
-      { type: 'system', text: 'Resume Redis v1.0 - Interactive Resume Terminal' },
+      { type: 'system', text: 'Resume v1.0 - Interactive Resume Terminal' },
       { type: 'output', text: `╔════════════════════════════════════════════════════════════════════════╗
 ║                        AVAILABLE COMMANDS                              ║
 ╚════════════════════════════════════════════════════════════════════════╝
@@ -380,7 +380,7 @@ Try: GETALL | GET name | KEYS experience* | GAME`;
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
             <Database className="w-8 h-8" />
-            <h1 className="text-2xl font-bold">Resume Redis</h1>
+            <h1 className="text-2xl font-bold">Resume Vikas Gavandi</h1>
           </div>
           <button
             onClick={clearAll}
@@ -403,7 +403,7 @@ Try: GETALL | GET name | KEYS experience* | GAME`;
                 {entry.type === 'system' && <div className="text-blue-400"># {entry.text}</div>}
                 {entry.type === 'input' && (
                   <div className="text-green-400">
-                    <span className="text-yellow-400">redis&gt;</span> {entry.text}
+                    <span className="text-yellow-400">vikasgavandi@Vikass-MacBook-Air ~ %</span> {entry.text}
                   </div>
                 )}
                 {entry.type === 'output' && (
@@ -415,7 +415,7 @@ Try: GETALL | GET name | KEYS experience* | GAME`;
 
           <div className="border-t border-gray-700 p-4">
             <div className="flex items-center gap-2">
-              <span className="text-yellow-400">redis&gt;</span>
+              <span className="text-yellow-400">vikasgavandi@Vikass-MacBook-Air ~ %</span>
               <input
                 type="text"
                 value={input}
