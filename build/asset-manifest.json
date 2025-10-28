@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/resume-redis/static/js/main.c6586e85.js",
+    "index.html": "/resume-redis/index.html",
+    "main.c6586e85.js.map": "/resume-redis/static/js/main.c6586e85.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c6586e85.js"
+  ]
+}
